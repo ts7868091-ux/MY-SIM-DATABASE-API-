@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/lookup" }
-  ],
-  "functions": {
-    "api/lookup.py": { "runtime": "vercel-python@0.0.6" }
-  }
-}
